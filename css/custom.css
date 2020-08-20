@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+.wrap,.second-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+img{
+    margin: 10px 0 0;
+    width: 200px;
+    height: 200px;
+}

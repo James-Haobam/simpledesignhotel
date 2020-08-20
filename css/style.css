@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+  /* body-section */
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+  /* navbar */
+  .brand-name{
+      color: #ffffff;
+      font-size:1.2rem ;
+      font-family: 'Comfortaa', sans-serif;
+
+  }
+
+  .navbar{
+    background-color: #00bfff;
+    padding: 5% 7%;
+    margin: 0;
+  
+
+ 
+}
+.rounded-corner{
+        border-radius: 50%;
+}
+
+
+/* title-section */
+
+.nav-container{
+    padding: 0;
+}
+#title{
+    background-color: #00bfff;
+    text-align: center;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    position: relative;
+}
+.cloud{
+    width: 15%;
+    position: absolute;
+    right: 33px;
+}
+.airplane{
+    width: 15%;
+    position: absolute;
+    left: 5px;
+}
+.building{
+    width: 17%;
+    position: absolute;
+    right: 40px;
+    bottom: 10px;
+}
+.mount{
+    
+    width: 25%;
+    margin-top: 30px;
+}
+h1{
+    color: antiquewhite;
+    width: 50%;
+    margin:0 auto;
+    padding: 2%;
+
+}
+.head{
+    font-family: 'Sacramento',  sans-serif;
+    font-size: 2rem;
+}
+.head-para{
+    color: #b2ebf2;
+}
+.lorem{
+    width: 50%;
+    margin: 0 auto 20px;
+    
+}
+.middle-container{
+    padding-top: 3%;
+}
+
+/* Gallery-section */
+
+/* center */
+
+
+#gallery{
+    text-align: center;
+    background-color: #ffffff;
+    padding:7% 7%;
+}
+.collection-gallery{
+    background-color: #b2ebf2;
+    border-radius: 25px;
+    padding: 3px;
+    width: 25%;
+    margin: 0 auto;
+}
+.thumbnail{
+    width: 300px;
+    height:200px;
+    margin: 2% 3%;
+    border: 1px solid black;
+}
+.thumbnail:hover{
+transform: scale3d(1,3);
+}
+.inner-container{
+    padding: 5% 0;
+
+}
+    
+/* pricing-section */
+
+#pricing{
+    padding:5% 7%;
+    background-color: #ffc7c7;
+}
+.cardcontainer{
+    text-align: center;
+    border: 2px solid gray;
+    padding: 4%;
+    width: 60%;
+    margin: 0 auto 10px;
+    background-color: #ffffff;
+    border-radius: 13px;
+  
+}
+.cardheader{
+    border-bottom: 2px solid grey;
+}
+.btn{
+    background-color: #ff5f40;
+    width: 100%;
+    color: #ffffdd;
+}
+#footer{
+    background-color: #ff5f40;
+    text-align: center;
+    padding: 3% 7% 2%;
+    color: #ffffff;
+}
+.wrapper-footer{
+    width: 50%;
+    margin: 0 auto;
+
+}
+.fa{
+    margin-right: 3%;
+}
+#footer a{
+    color: #ffffff;
+}
+.foot-1{
+    margin-bottom: 25px;
+}
+.foot-1 h3{
+    font-size: 1.2rem;
+}
+.foot-1 p{
+    font-size: 1rem;
+}
+.foot-2{
+    font-size: 0.8rem;
+}
+/* media query */
+
+@media screen and (min-width:1000px){
+    .nav-item{
+       margin-right: 30px;
+    }
+    .brand-name{
+        font-size: 1.8rem;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .collection-gallery{
+        width: 10%;
+    }
+    .foot-1 h3{
+        font-size: 1.7rem;
+    }
+    .foot-1 p{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width:960px) and (max-width:1380px){
+
+    .collection-gallery{
+        width: 15%;
+    }
+}
